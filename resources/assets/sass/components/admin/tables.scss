@@ -1,0 +1,143 @@
+.admin-content__table {
+    @include rem(font-size, 14px);
+    background-color: transparent;
+    border-collapse: collapse;
+    border: 1px solid  $brand-border;
+    width: 100%;
+}
+
+thead{
+    background-color: #ffffff;
+    border-top: 1px solid #d2d2d2;
+    border-bottom: 1px solid #d2d2d2;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+tbody{
+    //border: 1px solid $brand-border;
+    background-color: #ffffff;
+}
+.profile-content-inner p a{color:#fff;}
+th {
+    text-align: left;
+    position: relative;
+}
+
+td, th {
+    display: table-cell;
+    vertical-align: inherit;
+    @include rem(padding, 20px);
+    max-width: 300px;
+    min-width: 100px;
+}
+
+// Table Header
+
+.admin-content__table tr th{
+    @include transition(background-color .15s linear);
+}
+
+.admin-content__table tr th:hover{
+    background-color: #f2f2f2;
+    cursor: pointer;
+}
+
+.admin-content__table tr th.is-active{
+    color: $brand-green;
+}
+
+// Clickable Table Rows
+tr.clickable-row{
+    @include transition(background-color .15s linear);
+    cursor: pointer;
+    &:hover{
+        background-color: #ebebeb;
+    }
+}
+
+
+tbody tr.clickable-row:nth-child(2n+1){
+    background-color: #f7f7f7;
+    &:hover{
+        background-color: #ebebeb;
+    }
+}
+
+td.admin-table__large-cell{
+    @include rem(font-size, 22px);
+    font-weight: 400;
+}
+.activity-table .clickable-row td {
+	text-align:center;
+     & span{
+    font-size: 32px;
+    font-weight: 700;
+}
+}
+.activity-table .clickable-row td:nth-child(1) {	     
+	 text-align:left;
+}
+.activity-table .clickable-row td:nth-child(1) span {	     
+	 font-size:14px;
+	 font-weight:700;
+}	
+.activity-table .clickable-row td {
+& p{
+    font-size: 17px;
+    font-weight: 400;
+	}
+	}
+.activity-table .clickable-row > td:first-child p {
+    font-size: 13px;
+    color: #828282;
+}
+td{
+& a{
+color:#000;
+font-weight:400;
+}
+}
+table td {
+& img{
+    vertical-align: middle;
+    width: 39px;
+    height: 39px;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+}
+#first-tab-group {
+& .admin-content__table th:first-child{
+background-image:none;
+}
+}
+#first-tab-group {
+& .admin-content__table th:last-child{
+background-image:none;
+}
+}
+.admin-content__table.ad-table2 th{
+&:first-child{
+background-image:none;
+}
+}
+.admin-content__table.ad-table2 th{
+&:last-child{
+background-image:none;
+}
+}
+.admin-content__table.rect-table th{
+&:first-child{
+background-image:none;
+}
+}
+.admin-content__table.rect-table th{
+&:last-child{
+background-image:none;
+}
+}
+.admin-content__table.cat-table th:first-child, .admin-content__table.cat-table th:last-child{
+  background-image: none;
+}
+

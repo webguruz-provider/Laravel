@@ -1,0 +1,1127 @@
+//
+// responsive
+// --------------------------------------------------
+@media screen and (min-width: 1025px) and (max-width:1200px) {
+.topnav {
+	padding-left: 0;
+}
+}
+@media screen and (max-width: 1024px) {
+.marg-top.seperate-page-voter.challenge-debate-arg.email-modal {
+  overflow-x: hidden;
+  overflow-y: auto;
+  position: absolute;
+}
+div#app {
+    position: relative;
+    width: 100%;
+    float: left;
+}
+.category-list > ul{width:600px;}
+.modal.modal-box{overflow:auto;}
+#settingMultipleChoiceModal.modal.modal-box.fade.in {
+  margin-top: -20px !important;
+}
+.combine-button .white-button {font-size: 0.675rem;}
+}
+@media screen and (max-width: 1000px) {
+.combine-button .white-button {font-size: 0.875rem;}
+}
+@media screen and (min-width: 768px) and (max-width:1024px) {
+.login.signup {
+	display: flex;
+	height: 100vh;
+	padding-top: 0;
+	text-align: center;
+	vertical-align: middle;
+}
+}
+@media screen and (max-width: 1024px) {
+.topnav {
+	transition: all 0.7s ease 0s;
+}
+.topnav a {
+	display: none;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+.topnav a.icon {
+	float: right;
+	display: block;
+	position: fixed;
+	top: 9px;
+	right: 30px;
+	color: #000000;
+}
+input[type="search"] {
+	width: 0;
+	border: none;
+}
+.topnav.responsive .icon {
+	position: fixed;
+	top: 9px;
+	color: #000000;
+	right: 30px;
+	padding-left: 0;
+}
+.topnav.responsive a {
+	float: none;
+	display: block;
+	text-align: left;
+	color: #fff;
+	border-bottom: 1px solid #fff;
+	padding-left: 15px;
+}
+.topnav {
+	overflow: hidden;
+	position: absolute;
+	right: -100%;
+	top: 41px;
+	width: 250px;
+	background: #60dd50;
+	transition: 0.3s all ease-in-out 0s;
+	border-radius: 8px 0 0 8px;
+}
+.topnav.responsive {
+	right: 0;
+}
+.toggle-plus {
+	height: 28px;
+	width: 28px;
+}
+.toggle-plus::before, .toggle-plus::after {
+	width: 18px;
+}
+.toggle-plus::before, .toggle-plus::after {
+	top: 13px;
+}
+.primary-nav__logo {
+	width: 100px;
+}
+.topnav a.icon i {
+	font-size: 30px;
+}
+.topnav {
+	padding-left: 0;
+}
+.topnav a:hover::before {
+	right: 0;
+}
+.onboarding-category:hover {
+	border-color: #fff !important;
+	cursor: pointer;
+}
+.clone-sec a.icon {
+	padding-top: 0;
+	top: 0;
+}
+.clone-sec .responsive a.icon {
+	padding-top: 0;
+	top: 0;
+}
+.topnav.responsive a.icon span::after, .topnav.responsive a.icon span::before {
+	background: #000 none repeat scroll 0 0;
+}
+.icon span {
+	background: #000 none repeat scroll 0 0;
+	display: inline-block;
+	height: 3px;
+	position: relative;
+	width: 25px;
+}
+.topnav .icon {
+	display: none;
+	height: 50px;
+	transition: all 0.3s ease-in-out 0s;
+	width: 50px;
+}
+.responsive .icon span::before, .responsive .icon span::after {
+	transition-delay: 0s, 0.3s;
+}
+.responsive .icon span::before {
+	top: 0;
+	transform: rotate(45deg);
+}
+.icon span::before {
+	transition-property: top, transform;
+}
+.icon span::before, .icon span::after {
+	transition-delay: 0.3s, 0s;
+	transition-duration: 0.3s, 0.3s;
+}
+.icon span::before {
+	top: 6px;
+}
+.icon span::after, .icon span::before {
+	background: #000 none repeat scroll 0 0;
+	content: "";
+	display: inline-block;
+	height: 3px;
+	position: absolute;
+	width: 25px;
+}
+.topnav.responsive a.icon span::after, .topnav.responsive a.icon span::before {
+	background: #000 none repeat scroll 0 0;
+}
+.responsive .icon span::after {
+	bottom: 0;
+	transform: rotate(-45deg);
+}
+.icon span::after {
+	transition-property: bottom, transform;
+}
+.icon span::after {
+	bottom: 6px;
+}
+.topnav.responsive a.icon span {
+	background: transparent none repeat scroll 0 0;
+}
+#inviteToVote.modal {
+	margin-top: 0;
+	overflow: scroll;
+}
+.game-wrapper.reset-sec {
+	padding-top: 10rem;
+}
+#mychallengeModal.modal {
+	overflow: scroll;
+}
+.modal {
+	overflow: scroll;
+}
+}
+@media screen and (max-width: 767px) {
+.sided-net-content{overflow-y:auto; height:auto;}
+.u-col-four {
+    display: block;
+    float: left;
+    margin-right: 2.35765%;
+    width: 100%;
+}
+.u-col-four:last-child {
+    margin-right: 0;
+}
+.debate-argument__form {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+	z-index: 999;
+    left: 0;
+	border:1px solid #ccc;
+}
+.view-comment { padding: 15px 22px 0 6px;}
+.debate-comment__form{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+    border: 1px solid #ccc;
+	z-index: 999;
+}
+}
+@media screen and (max-width: 665px) {
+.category-list {
+	overflow-x: auto;
+	overflow-y: hidden;
+}
+.custom-bar-chart .bar{padding:0 0 0 5%;}
+.border-head h3 {font-size: 16px;}
+section.onboarding-categories.u-container { width: 100%;}
+ul.select-agree-btn.survey-select-sec li, ul.select-agree-btn.survey-select-sec2 li {margin-left:0;}
+}
+@media screen and (max-width: 640px) {
+.on_air{top:50px;}
+.player-profile-bg .following-btn {right: 3px;}
+.btn-set button {
+	max-width: 219px;
+}
+.profile-tab .nav-tabs {
+	text-align: center;
+	border-top: 1px solid #fff;
+}
+.profile-tab .nav > li {
+	width: 24%;
+}
+.header-stat__label {
+	font-size: 1.7rem;
+}
+.following-sec {
+	padding-right: 10px;
+}
+.challenge-sec {
+	padding-right: 10px;
+}
+.feedback-sec {
+	padding-right: 10px;
+}
+.contest-sec {
+	padding-right: 10px;
+}
+.contest-sec a {
+	width: 30%;
+}
+.following-btn {
+	width: 30% !important;
+}
+.challenge-btn {
+	width: 30%;
+}
+.dropdown.profile-name {
+	margin-top: 57px;
+}
+.game-wrapper {
+	padding-left: 0;
+	padding-right: 0;
+}
+.game-main.debate-single.share-top {
+	padding: 0;
+}
+.profile-tab .nav-tabs {
+	padding: 0 10px;
+}
+.game-main.debate-single.share-sec {
+	padding: 0;
+}
+#myModal12 .tab-section .nav-tabs {
+	height: auto;
+	padding: 0;
+	line-height: 0;
+}
+.tab-section .nav li a {
+	font-size: 14px;
+}
+#myModal12 .modal-body p {
+	font-size: 12px;
+}
+.modal-content .follow-player-sec {
+	height: 200px;
+}
+.sided-net-content p {
+	font-size: 12px;
+}
+.sided-net-content {
+	padding: 15px 15px 0;
+}
+.disable-vote-icon {
+	width: 30px;
+	height: 30px;
+	background-size: 30px;
+	vertical-align: middle;
+}
+.not-mine-agree-1 {
+	width: 30px;
+	height: 30px;
+	background-size: 30px;
+	vertical-align: middle;
+}
+.btn-set {
+	padding: 0 0 3rem;
+}
+.top-head {
+	padding-left: 0;
+	padding-right: 0;
+}
+.game-footer.u-text-center {
+	padding-bottom: 35px;
+}
+.marg-top.seperate-page-voter .marginb.game-wrapper {
+  padding-top: 0;
+}
+.marginb.game-wrapper {
+	padding-top: 4rem;
+}
+#slider-second {
+	width: 100% !important;
+	height: auto !important;
+}
+#slider-second img {
+	height: 94px;
+	max-height: none !important;
+	width: 100% !important;
+}
+#slider-second ul li {
+	width: 100%;
+	height: auto;
+	border: 1px solid #f6f6f6;
+}
+#slider-second ul {
+	height: auto;
+	list-style: outside none none;
+	margin: 0 !important;
+	padding: 0;
+	position: relative;
+	width: 100% !important;
+}
+.mine-agree-1 {
+	width: 30px;
+	height: 30px;
+	background-size: 30px;
+}
+.mine-disagree-2 {
+	width: 30px;
+	height: 30px;
+	background-size: 30px;
+	vertical-align: middle;
+}
+.mine-disagree-1 {
+	width: 30px;
+	height: 30px;
+	background-size: 30px;
+	vertical-align: middle;
+}
+.mine-agree-2 {
+	width: 30px;
+	height: 30px;
+	background-size: 30px;
+	vertical-align: middle;
+}
+.not-mine-2 {
+	margin-bottom: 0;
+	width: 30px;
+	height: 30px;
+	background-size: 30px;
+	vertical-align: middle;
+}
+.not-mine-1 {
+	width: 30px;
+	height: 30px;
+	background-size: 30px;
+	vertical-align: middle;
+}
+.disable-vote-icon {
+	width: 30px;
+	height: 30px;
+	background-size: 30px;
+	vertical-align: middle;
+}
+.not-mine-disagree-1 {
+	width: 30px;
+	height: 30px;
+	background-size: 30px;
+	vertical-align: middle;
+}
+.not-mine-agree-2 {
+	width: 30px;
+	height: 30px;
+	background-size: 30px;
+	vertical-align: middle;
+}
+.not-not-given-1 {
+	width: 30px;
+	height: 30px;
+	background-size: 30px;
+	vertical-align: middle;
+}
+.not-not-given-2 {
+	width: 30px;
+	height: 30px;
+	background-size: 30px;
+	vertical-align: middle;
+}
+.not-not-given-disagree-1 {
+	width: 30px;
+	height: 30px;
+	background-size: 30px;
+	vertical-align: middle;
+}
+.not-given-disagree-1 {
+	width: 30px;
+	height: 30px;
+	background-size: 30px;
+	vertical-align: middle;
+}
+.not-given-agree-2 {
+	width: 30px;
+	height: 30px;
+	background-size: 30px;
+	vertical-align: middle;
+}
+.not-not-given-agree-2 {
+	width: 30px;
+	height: 30px;
+	background-size: 30px;
+	vertical-align: middle;
+}
+.not-not-given-disagree-2 {
+	width: 30px;
+	height: 30px;
+	background-size: 30px;
+	vertical-align: middle;
+}
+.not-not-given-agree-1 {
+	width: 30px;
+	height: 30px;
+	background-size: 30px;
+	vertical-align: middle;
+}
+.not-given-agree-1 {
+	width: 30px;
+	height: 30px;
+	background-size: 30px;
+	vertical-align: middle;
+}
+.not-given-disagree-2 {
+	width: 30px;
+	height: 30px;
+	background-size: 30px;
+	vertical-align: middle;
+}
+.not-my-debate-disagree-1 {
+	width: 30px;
+	height: 30px;
+	background-size: 30px;
+	vertical-align: middle;
+}
+.not-mine-disagree-2 {
+	width: 30px;
+	height: 30px;
+	background-size: 30px;
+	vertical-align: middle;
+}
+.not-my-debate-agree-2 {
+	width: 30px;
+	height: 30px;
+	background-size: 30px;
+	vertical-align: middle;
+}
+.not-mine-disagree-2 {
+	width: 30px;
+	height: 30px;
+	background-size: 30px;
+	vertical-align: middle;
+}
+.not-my-debate-agree-1 {
+	width: 30px;
+	height: 30px;
+	background-size: 30px;
+	vertical-align: middle;
+}
+.not-my-debate-disagree-2 {
+	width: 30px;
+	height: 30px;
+	background-size: 30px;
+	vertical-align: middle;
+}
+.not-mine-agree-1 {
+	width: 30px;
+	height: 30px;
+	background-size: 30px;
+	vertical-align: middle;
+}
+.not-my-debate-disabled-disagree-2 {
+	width: 30px;
+	height: 30px;
+	background-size: 30px;
+	vertical-align: middle;
+}
+.not-my-debate-disabled-agree-2 {
+	width: 30px;
+	height: 30px;
+	background-size: 30px;
+	vertical-align: middle;
+}
+.not-my-debate-disabled-agree-1 {
+	width: 30px;
+	height: 30px;
+	background-size: 30px;
+	vertical-align: middle;
+}
+.not-my-debate-disabled-disagree-1 {
+	width: 30px;
+	height: 30px;
+	background-size: 30px;
+	vertical-align: middle;
+}
+.not-not-given-disabled-agree-1 {
+	width: 30px;
+	height: 30px;
+	background-size: 30px;
+	vertical-align: middle;
+}
+.not-my-debate-disabled-disagree-2 {
+	width: 30px;
+	height: 30px;
+	background-size: 30px;
+	vertical-align: middle;
+}
+.not-not-given-disabled-disagree-2 {
+	width: 30px;
+	height: 30px;
+	background-size: 30px;
+	vertical-align: middle;
+}
+.vote-count-0-not-given-disabled > li > a.not-not-given-disabled-disagree-2 {
+	width: 30px;
+	height: 30px;
+	background-size: 30px;
+	vertical-align: middle;
+}
+.vote-count-0-not-given-disabled > li > a.not-not-given-disabled-agree-2 {
+	width: 30px;
+	height: 30px;
+	background-size: 30px;
+	vertical-align: middle;
+}
+.vote-count-0-not-given-disabled > li > a.not-not-given-disabled-disagree-1 {
+	width: 30px;
+	height: 30px;
+	background-size: 30px;
+	vertical-align: middle;
+}
+.vote-count-0-not-given-disabled > li > a.not-not-given-disabled-agree-1 {
+	width: 30px;
+	height: 30px;
+	background-size: 30px;
+	vertical-align: middle;
+}
+.vote-count-0-mine-disabled > li > a.not-mine-disabled-agree-1 {
+	width: 30px;
+	height: 30px;
+	background-size: 30px;
+	vertical-align: middle;
+}
+.vote-count-0-mine-disabled > li > .not-mine-disabled-disagree-2 {
+	width: 30px;
+	height: 30px;
+	background-size: 30px;
+	vertical-align: middle;
+}
+.my-debate-disabled > li > a.not-my-debate-disabled-agree-1 {
+	width: 30px;
+	height: 30px;
+	background-size: 30px;
+	vertical-align: middle;
+}
+.my-debate-disabled > li > a.not-my-debate-disabled-agree-2 {
+	width: 30px;
+	height: 30px;
+	background-size: 30px;
+	vertical-align: middle;
+}
+.my-debate-disabled > li > a.not-my-debate-disabled-disagree-1 {
+	width: 30px;
+	height: 30px;
+	background-size: 30px;
+	vertical-align: middle;
+}
+.my-debate-disabled > li > a.not-my-debate-disabled-disagree-2 {
+	width: 30px;
+	height: 30px;
+	background-size: 30px;
+	vertical-align: middle;
+}
+.not-mine-disabled-agree-2 {
+	width: 30px;
+	height: 30px;
+	background-size: 30px;
+	vertical-align: middle;
+}
+.not-mine-disabled-disagree-1 {
+	width: 30px;
+	height: 30px;
+	background-size: 30px;
+	vertical-align: middle;
+}
+.gray-in:first-child {
+	width: 30px;
+	height: 30px;
+	background-size: 30px;
+	vertical-align: middle;
+}
+.gray-in:last-child {
+	width: 30px;
+	height: 30px;
+	background-size: 30px;
+	vertical-align: middle;
+}
+#inviteToVote.modal {
+	margin-top: 0;
+	overflow: visible;
+}
+h4.debate-preview__player-name a::after {
+	background-image: url(../img/shadow-bg.png);
+	background-repeat: no-repeat;
+	background-position: center right;
+	width: 9px;
+	height: 16px;
+	content: "";
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+.voter-sec img {
+	width: 40px;
+}
+.voter-img .voter-sec {
+	max-width: 166px;
+}
+}
+@media screen and (max-width: 610px) {
+.voter-sec {
+	padding-right: 3px;
+}
+}
+@media screen and (max-width: 560px) {
+#slider {
+	width: 100% !important;
+}
+#slider ul li {
+	width: 100%;
+}
+.agree-1 {
+	font-size: 13px;
+}
+.disagree-2 {
+	font-size: 13px;
+}
+.agree .full-dark li span {
+	font-size: 13px;
+}
+.disagree .full-dark li span {
+	font-size: 13px;
+}
+}
+@media screen and (max-width: 476px) {
+.btn-set button {
+	margin: 0;
+}
+}
+@media screen and (max-width: 550px) {
+.profile-detial > ul li {
+	display: inline-block;
+	padding: 0;
+	width: 33.33%;
+	float: left;
+}
+#myModal .modal-body > p {
+	font-size: 16px;
+	width: 100%;
+}
+.onboarding-category {
+	height: 139px;
+	width: 50%;
+}
+.onboarding-category__name {
+	font-size: 13px;
+}
+}
+@media screen and (max-width: 480px) {
+.profile-tab .nav li a {
+	height: 46px;
+	padding: 16px 0 0;
+	margin-right: 0;
+}
+.dropdown.profile-name .dropdown-menu {
+	top: 39px;
+	left: 15%;
+}
+.close-sec {
+	font-size: 1.3rem;
+}
+p.profile-name, p.profile-email, p.profile-id {
+	font-size: 1.5rem;
+}
+.challenge-btn {
+	font-size: 1rem;
+	width: 30%;
+}
+.following-btn {
+	font-size: 1rem;
+	width: 30%;
+}
+.contest-sec a {
+	font-size: 1rem;
+	width: 30%;
+}
+.debate-preview__player-info {
+	max-width: 84px;
+}
+.voter-sec {
+	max-width: 85px;
+}
+.voter-sec img {
+	width: 30px;
+}
+select.dropdown option {
+	width: 270px;
+	word-wrap: break-word;
+}
+.new-join-debate-button a.debate-preview__player-info{font-size:1rem;}
+}
+@media screen and (max-width: 470px) {
+.debate-preview__player-info {
+	max-width: 84px;
+}
+.voter-sec {
+	max-width: 82px;
+}
+.u-background-white h3 {
+	text-align: center;
+	padding: 15px;
+}
+.user-detial-bottom h3 a:last-child {
+	float: right;
+	padding-right: 0;
+	width: 100%;
+	text-align: center;
+}
+.user-detial-bottom h3 a {
+	display: block;
+}
+.debate-preview-closed .u-flex-center:first-child {width: 56%;}
+.debate-preview-closed .u-flex-center:last-child {width: 44%;}
+.debate-preview-closed .debate-preview__player-info{padding:10px 10px 0 10px;}
+button.debate-btn.nounderline.btn-block.mdl-button.mdl-js-button.mdl-button--raised.mdl-js-ripple-effect.mdl-button--accent.no-question-suggestions { font-size: 14px;}
+}
+@media screen and (max-width: 468px) {
+.radio-vote-section ul {width: 100%;}
+.voter-sec {
+	max-width: 80px;
+}
+.voter-sec img{margin:0 !important;}
+.agree-1-dark {
+    color: #d8d8d8;
+    font-weight: 500;
+    font-size: 17px;
+    margin: 0;
+    display: inline-block;
+}
+.voter-sec li span{margin:0 !important;}
+.new-join-debate-button a.debate-preview__player-info{top:-5px;}
+}
+
+@media screen and (max-width: 370px) {
+.new-join-debate-button a.debate-preview__player-info{top:-3px;}
+.singledebate_section .debate-preview__player.u-flex-center:first-child {
+	width: 50%;
+}
+.singledebate_section .debate-preview__player.u-flex-center:last-child {
+	width: 50%;
+}
+.disable-vote-icon {
+	width: 22px;
+	height: 22px;
+	background-size: 22px;
+	vertical-align: middle;
+}
+.not-mine-agree-1 {
+	width: 22px;
+	height: 22px;
+	background-size: 22px;
+	vertical-align: middle;
+}
+.mine-agree-1 {
+	width: 22px;
+	height: 22px;
+	background-size: 22px;
+}
+.mine-disagree-2 {
+	width: 22px;
+	height: 22px;
+	background-size: 22px;
+	vertical-align: middle;
+}
+.mine-disagree-1 {
+	width: 22px;
+	height: 22px;
+	background-size: 22px;
+	vertical-align: middle;
+}
+.mine-agree-2 {
+	width: 22px;
+	height: 22px;
+	background-size: 22px;
+	vertical-align: middle;
+}
+.not-mine-2 {
+	margin-bottom: 0;
+	width: 22px;
+	height: 22px;
+	background-size: 22px;
+	vertical-align: middle;
+}
+.not-mine-1 {
+	width: 22px;
+	height: 22px;
+	background-size: 22px;
+	vertical-align: middle;
+}
+.disable-vote-icon {
+	width: 22px;
+	height: 22px;
+	background-size: 22px;
+	vertical-align: middle;
+}
+.not-mine-disagree-1 {
+	width: 22px;
+	height: 22px;
+	background-size: 22px;
+	vertical-align: middle;
+}
+.not-mine-agree-2 {
+	width: 22px;
+	height: 22px;
+	background-size: 22px;
+	vertical-align: middle;
+}
+.not-not-given-1 {
+	width: 22px;
+	height: 22px;
+	background-size: 22px;
+	vertical-align: middle;
+}
+.not-not-given-2 {
+	width: 22px;
+	height: 22px;
+	background-size: 22px;
+	vertical-align: middle;
+}
+.not-not-given-disagree-1 {
+	width: 22px;
+	height: 22px;
+	background-size: 22px;
+	vertical-align: middle;
+}
+.not-given-disagree-1 {
+	width: 22px;
+	height: 22px;
+	background-size: 22px;
+	vertical-align: middle;
+}
+.not-given-agree-2 {
+	width: 22px;
+	height: 22px;
+	background-size: 22px;
+	vertical-align: middle;
+}
+.not-not-given-agree-2 {
+	width: 22px;
+	height: 22px;
+	background-size: 22px;
+	vertical-align: middle;
+}
+.not-not-given-disagree-2 {
+	width: 22px;
+	height: 22px;
+	background-size: 22px;
+	vertical-align: middle;
+}
+.not-not-given-agree-1 {
+	width: 22px;
+	height: 22px;
+	background-size: 22px;
+	vertical-align: middle;
+}
+.not-given-agree-1 {
+	width: 22px;
+	height: 22px;
+	background-size: 22px;
+	vertical-align: middle;
+}
+.not-given-disagree-2 {
+	width: 22px;
+	height: 22px;
+	background-size: 22px;
+	vertical-align: middle;
+}
+.not-my-debate-disagree-1 {
+	width: 22px;
+	height: 22px;
+	background-size: 22px;
+	vertical-align: middle;
+}
+.not-mine-disagree-2 {
+	width: 22px;
+	height: 22px;
+	background-size: 22px;
+	vertical-align: middle;
+}
+.not-my-debate-agree-2 {
+	width: 22px;
+	height: 22px;
+	background-size: 22px;
+	vertical-align: middle;
+}
+.not-mine-disagree-2 {
+	width: 22px;
+	height: 22px;
+	background-size: 22px;
+	vertical-align: middle;
+}
+.not-my-debate-agree-1 {
+	width: 22px;
+	height: 22px;
+	background-size: 22px;
+	vertical-align: middle;
+}
+.not-my-debate-disagree-2 {
+	width: 22px;
+	height: 22px;
+	background-size: 22px;
+	vertical-align: middle;
+}
+.not-mine-agree-1 {
+	width: 22px;
+	height: 22px;
+	background-size: 22px;
+	vertical-align: middle;
+}
+.not-my-debate-disabled-disagree-2 {
+	width: 22px;
+	height: 22px;
+	background-size: 22px;
+	vertical-align: middle;
+}
+.not-my-debate-disabled-agree-2 {
+	width: 22px;
+	height: 22px;
+	background-size: 22px;
+	vertical-align: middle;
+}
+.not-my-debate-disabled-agree-1 {
+	width: 22px;
+	height: 22px;
+	background-size: 22px;
+	vertical-align: middle;
+}
+.not-my-debate-disabled-disagree-1 {
+	width: 22px;
+	height: 22px;
+	background-size: 22px;
+	vertical-align: middle;
+}
+.not-not-given-disabled-agree-1 {
+	width: 22px;
+	height: 22px;
+	background-size: 22px;
+	vertical-align: middle;
+}
+.not-my-debate-disabled-disagree-2 {
+	width: 22px;
+	height: 22px;
+	background-size: 22px;
+	vertical-align: middle;
+}
+.not-not-given-disabled-disagree-2 {
+	width: 22px;
+	height: 22px;
+	background-size: 22px;
+	vertical-align: middle;
+}
+.vote-count-0-not-given-disabled > li > a.not-not-given-disabled-disagree-2 {
+	width: 22px;
+	height: 22px;
+	background-size: 22px;
+	vertical-align: middle;
+}
+.vote-count-0-not-given-disabled > li > a.not-not-given-disabled-agree-2 {
+	width: 22px;
+	height: 22px;
+	background-size: 22px;
+	vertical-align: middle;
+}
+.vote-count-0-not-given-disabled > li > a.not-not-given-disabled-disagree-1 {
+	width: 22px;
+	height: 22px;
+	background-size: 22px;
+	vertical-align: middle;
+}
+.vote-count-0-not-given-disabled > li > a.not-not-given-disabled-agree-1 {
+	width: 22px;
+	height: 22px;
+	background-size: 22px;
+	vertical-align: middle;
+}
+.vote-count-0-mine-disabled > li > a.not-mine-disabled-agree-1 {
+	width: 22px;
+	height: 22px;
+	background-size: 22px;
+	vertical-align: middle;
+}
+.vote-count-0-mine-disabled > li > .not-mine-disabled-disagree-2 {
+	width: 22px;
+	height: 22px;
+	background-size: 22px;
+	vertical-align: middle;
+}
+.my-debate-disabled > li > a.not-my-debate-disabled-agree-1 {
+	width: 22px;
+	height: 22px;
+	background-size: 22px;
+	vertical-align: middle;
+}
+.my-debate-disabled > li > a.not-my-debate-disabled-agree-2 {
+	width: 22px;
+	height: 22px;
+	background-size: 22px;
+	vertical-align: middle;
+}
+.my-debate-disabled > li > a.not-my-debate-disabled-disagree-1 {
+	width: 22px;
+	height: 22px;
+	background-size: 22px;
+	vertical-align: middle;
+}
+.my-debate-disabled > li > a.not-my-debate-disabled-disagree-2 {
+	width: 22px;
+	height: 22px;
+	background-size: 22px;
+	vertical-align: middle;
+}
+.not-mine-disabled-agree-2 {
+	width: 22px;
+	height: 22px;
+	background-size: 22px;
+	vertical-align: middle;
+}
+.not-mine-disabled-disagree-1 {
+	width: 22px;
+	height: 22px;
+	background-size: 22px;
+	vertical-align: middle;
+}
+.gray-in:first-child {
+	width: 22px;
+	height: 22px;
+	background-size: 22px;
+	vertical-align: middle;
+}
+.gray-in:last-child {
+	width: 22px;
+	height: 22px;
+	background-size: 22px;
+	vertical-align: middle;
+}
+}
+@media screen and (max-width: 360px) {
+.close-sec {
+	font-size: 1.3rem;
+}
+.tab-section .nav li a {
+	font-size: 14px;
+	padding: 10px 2px;
+}
+.voter-sec img {
+	margin: 0 2px;
+	width: 25px;
+}
+.debate-preview__player-info {
+	max-width: 65.8px;
+	width: 100%;
+}
+h4.debate-preview__player-name a.u-link-black {
+	font-size: 1rem;
+}
+.debate-comment__author{width:auto;}
+.debate-comment__message{width:auto;}
+}
+@media screen and (max-width: 359px) {
+.u-link-black {
+	font-size: 1rem;
+}
+}
+@media screen and (max-width: 359px) {
+.debate-preview-closed .debate-preview__player-info {
+	padding: 10px 10px 0;
+}
+}

@@ -1,0 +1,101 @@
+//
+// Primary Navigation
+// --------------------------------------------------
+.primary-nav{
+	@include rem(padding, 20px 0px);
+	@include rem(width, 250px);
+	background-color: #ffffff;
+	box-shadow: 0px 3px 5px rgba(0,0,0,.05);
+	position: fixed;
+	z-index: 9;
+	width: 100%;
+}
+
+.primary-nav a{
+	@include rem(font-size, 14px);
+}
+
+.primary-nav__logo{
+	@include rem(padding-right, 20px);
+}
+
+.primary-nav .u-container {
+	@include rem(padding, 0px 20px);
+	display: flex;
+}
+
+.primary-nav__left{
+	display: flex;
+	align-items: center;
+}
+
+a.primary-nav__link{
+	@include rem(padding, 0px 15px);
+	color: $brand-black;
+	display: inline-block;
+	font-weight: 700;
+}
+
+.primary-nav__right{
+	align-items: center;
+	display: flex;
+	margin-left: auto;
+}
+
+// Dropdown
+.primary-nav__dropdown{
+	@include rem(padding-left, 10px);
+	align-items: center;
+	display: flex;
+	position: relative;
+}
+
+.primary-nav__dropdown-toggle:hover{
+	cursor: pointer;
+}
+
+.primary-nav__avatar{
+	@include rem(width, 35px);
+}
+
+// Dropdown Menu Arrow
+.primary-nav__dropdown-arrow{
+	display: inline-block;
+	position: absolute;
+}
+
+.primary-nav__dropdown-arrow--outer{
+    top: -11px;
+    right: 9px;
+    border-left: 10px solid rgba(0, 0, 0, 0);
+    border-right: 10px solid rgba(0, 0, 0, 0);
+    border-bottom: 11px solid #ccc;
+    border-bottom-color: #ccc;
+}
+
+.primary-nav__dropdown-arrow--inner{
+	top: -9px;
+    right: 10px;
+    border-left: 9px solid rgba(0, 0, 0, 0);
+    border-right: 9px solid rgba(0, 0, 0, 0);
+    border-bottom: 9px solid #fff;
+    border-bottom-color: #fff;
+}
+
+// Dropdown Menu
+.primary-nav__dropdown ul{
+	@include rem(right, -2px);
+	@include rem(top, 40px);
+	@include rem(width, 150px);
+	@include rem(padding-top, 10px);
+	background-color: #ffffff;
+	border: 1px solid $brand-border;
+	position: absolute;
+	text-align: right;
+	display: none;
+}
+
+a.primary-nav__dropdown-link{
+	@include rem(padding, 0px 10px 10px);
+	display: block;
+}

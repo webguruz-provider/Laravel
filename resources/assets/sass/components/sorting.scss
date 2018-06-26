@@ -1,0 +1,26 @@
+//
+// sorting
+// --------------------------------------------------
+
+.sorting {
+    background-image: url(../img-dist/sort_both.png);
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.sorting_desc {
+    background-image: url(../img-dist/sort_desc.png);
+	cursor: pointer;
+    background-repeat: no-repeat;	
+    background-position: -2px center;
+}
+.sorting_asc {
+    background-image:url(../img-dist/sort_asc.png);	
+    cursor: pointer;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.clickable-row td a i {
+  transform: rotate(-90deg);
+  transition: all 0.3s ease-in-out 0s;
+}

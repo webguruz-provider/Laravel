@@ -1,0 +1,66 @@
+/* 
+* Table of Contents
+* . Border Radii
+* . Colors
+* . Media Queries
+* . Typography
+* . Z-Index
+*/
+
+
+//
+// Border Radii
+// --------------------------------------------------
+
+//
+// Colors
+// --------------------------------------------------
+
+/* Brand Colors */
+$brand-green: #61DD50;
+$brand-blue: #2DCEF7;
+$brand-black: #323232;
+$brand-gray: #8E8E93;
+$brand-border: #cccccc;
+
+
+//
+// Media Queries
+// --------------------------------------------------
+
+$screen-lg: 1200px;
+$screen-column-collapse: 767px;
+$screen-mobile: 600px;
+
+
+//
+// Typography
+// --------------------------------------------------
+
+$font-family: -apple-system, BlinkMacSystemFont, 'Roboto', sans-serif;
+
+/* Sizes */
+$font-size-base: 16px;
+$font-size-heading: 36px;
+
+
+//
+// Z-Index
+// --------------------------------------------------
+
+/* Private Variables */
+$zIndex-1:   100;
+$zIndex-2:   200;
+$zIndex-3:   300;
+$zIndex-4:   400;
+$zIndex-5:   500;
+$zIndex-6:   600;
+$zIndex-7:   700;
+$zIndex-8:   800;
+$zIndex-9:   900;
+$zIndex-10: 1000;
+
+/* Public Variables */
+$zIndex-baseline: $zIndex-1;
+$zIndex-super-baseline: $zIndex-2;
+$zIndex-modal: $zIndex-10;

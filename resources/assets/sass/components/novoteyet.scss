@@ -1,0 +1,21 @@
+//
+// 404
+// --------------------------------------------------
+ .gray-in:last-child {
+    margin-bottom: 0;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    background: transparent url(../img/left-vote-btn-dark.svg) center top no-repeat;
+    background-size: 40px;
+    vertical-align: middle;
+}
+.gray-in:first-child {
+    margin-bottom: 0;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    background: transparent url(../img/right-vote-btn-dark.svg) center top no-repeat;
+    background-size: 40px;
+    vertical-align: middle;
+}

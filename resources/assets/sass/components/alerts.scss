@@ -1,0 +1,44 @@
+.alert{
+	color: #fff;
+	@include rem(margin, 10px 0px 20px);
+	@include rem(padding, 8px 15px);
+    font-size: 12px;
+	@include media(max-width $screen-mobile){
+		text-align: center;
+	}
+	@include media(min-width $screen-mobile){
+		display: flex;
+		align-content: center;
+	}
+}
+
+.alert p{
+	font-size: 12px !important;
+	margin: 0px;
+}
+
+.alert-success{
+	background-color: #00A061;
+}
+
+.alert-danger,
+.alert-error{
+	//background-color: $brand-red;
+}
+
+.close{
+	margin-left: auto;
+	line-height: 0 !important;
+}
+
+.alert a{
+	color: #ffffff;
+	text-decoration: underline;
+	&:hover{
+		text-decoration: none;
+		color: #ffffff;
+	}
+	@include media(max-width $screen-mobile){
+		display: block;
+	}
+}

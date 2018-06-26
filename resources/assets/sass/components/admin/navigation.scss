@@ -1,0 +1,82 @@
+//
+// Primary Navigation
+// --------------------------------------------------
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i');
+html{
+	height: 100%;
+    position: relative;
+}
+body{
+	height: 100%;
+    margin: 0;
+    position: relative;
+}
+div#app {
+  float: left;
+  position: relative;
+  top: 0;
+  width: 100%;
+}
+.admin-nav{
+	padding:2.1875rem 0 50rem 1.875rem;
+	@include rem(width, 260px);
+	background-color: #323232;
+	height: 100%;
+	position:absolute;
+	top: 0px;
+	float:left;
+}
+
+// Header
+.admin-nav__header{
+	@include rem(padding, 15px 25px 35px);
+}
+.table-main-scroll {
+  display: block;
+  width: 100%;
+}
+.admin-nav__logo{
+	@include rem(height, 34px);
+	@include rem(width, 118px);
+}
+
+// User Block
+.admin-nav__user{
+	@include rem(padding, 0px 25px 15px);
+	color: #ffffff;
+}
+.admin-nav__user img{
+	@include rem(margin-bottom, 5px);
+}
+
+.admin-nav__user p{
+	@include rem(margin, 0px);
+	@include rem(font-size, 15px);
+	a{
+	color:#fff;
+}
+}
+
+// Nav
+.admin-nav__link{
+	@include rem(font-size, 15px);
+	@include rem(padding, 15px 25px);
+	@include transition(background-color .15s linear);
+	color: #ffffff;
+	display: block;
+	font-weight:400;
+	&:hover{
+		background-color: rgba(255,255,255,.2);
+	}
+}
+
+.admin-nav__link--active{
+	background-color: rgba(255,255,255,.2);
+	font-weight: 700;
+}
+
+.admin-nav__divider{
+	@include rem(margin, 40px 0px);
+	border-color: rgba(255,255,255, .2);
+}
+

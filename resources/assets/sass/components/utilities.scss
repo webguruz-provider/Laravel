@@ -1,0 +1,147 @@
+//
+// Alignment
+// --------------------------------------------------
+
+.u-text-left{
+	text-align: left;
+}
+
+.u-text-right{
+	text-align: right;
+	//@include media(max-width $screen-nav-collapse){
+	//	text-align: center;
+	//}
+}
+
+.u-pull-left{
+	float: left;
+}
+
+.u-pull-right{
+	float: right;
+}
+
+.u-text-center{
+	text-align: center;
+}
+
+.u-center-block{
+	@include center-block();
+}
+
+
+//
+// Colors
+// --------------------------------------------------
+.u-background-white{
+	background-color: #ffffff;
+	border: 1px solid $brand-border;
+}
+
+.u-text-black{
+	color: $brand-black;
+}
+
+.u-link-black{
+	color: $brand-black;
+	&:hover{
+		color: $brand-green;
+	}
+}
+
+
+
+//
+// Columns
+// --------------------------------------------------
+.u-col-three{
+	@include media(min-width $screen-column-collapse){
+		@include span-columns(3);
+	}
+	@include media(max-width $screen-column-collapse){
+		@include span-columns(12);
+	}
+}
+
+.u-col-four{
+	@include media(min-width $screen-column-collapse){
+		@include span-columns(4);
+	}
+	@include media(max-width $screen-column-collapse){
+		@include span-columns(12);
+	}
+}
+
+.u-col-six{
+	@include media(min-width $screen-column-collapse){
+		@include span-columns(6);
+	}
+	@include media(max-width $screen-column-collapse){
+		@include span-columns(12);
+	}
+}
+
+.u-col-eight{
+	@include media(min-width $screen-column-collapse){
+		@include span-columns(8);
+	}
+	@include media(max-width $screen-column-collapse){
+		@include span-columns(12);
+	}
+}
+
+.u-col-nine{
+	@include media(min-width $screen-column-collapse){
+		@include span-columns(9);
+	}
+	@include media(max-width $screen-column-collapse){
+		@include span-columns(12);
+	}
+}
+
+
+//
+// Display
+// --------------------------------------------------
+.u-container{
+	@include outer-container(1200px);
+}
+
+.u-hide{
+	display: none;
+}
+
+.u-flex{
+	@include display(flex);
+}
+
+.u-flex-center{
+	display: flex;
+	align-items: center;
+}
+
+.u-display-relative{
+	position: relative;
+}
+
+.u-display-block{
+	display: block !important;
+}
+
+.u-rounded{
+	border-radius: 50%;
+}
+
+//
+// Images
+// --------------------------------------------------
+.u-img-responsive {
+    max-width: 100%;
+    height: auto;
+}
+
+.u-img-avatar{
+	@include rem(height, 40px);
+	@include rem(width, 40px);
+	@include rem(border-radius, 5px);
+}

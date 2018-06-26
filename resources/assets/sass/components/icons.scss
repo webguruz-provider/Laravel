@@ -1,0 +1,10 @@
+//
+// Components
+// --------------------------------------------------
+
+svg.icon path,
+svg.icon rect,
+svg.icon circle,
+svg.icon polygon{
+	@include transition(fill .15s linear);
+}

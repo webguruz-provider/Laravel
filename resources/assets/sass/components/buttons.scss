@@ -1,0 +1,138 @@
+//
+// Buttons
+// --------------------------------------------------
+
+button,
+input[type="button"],
+input[type="reset"],
+//input[type="submit"],
+.btn {
+	-webkit-font-smoothing: antialiased;
+	@include rem(border-radius, 5px);
+	@include rem(font-size, 14px);
+	@include rem(padding, 10px 45px);
+	@include transition(background-color .15s linear, color .15s linear);
+	border: 0px;
+	display: inline-block;
+	font-weight: 700;
+	line-height: 1.4;
+	text-align: center;
+	white-space: normal;
+	color: #ffffff;
+	&:active,
+	&:focus,
+	&:hover {
+		outline: 0;
+		color: #ffffff;
+	}
+}
+
+.btn-green{
+	background-color: $brand-green;
+	&:hover{
+		background-color: darken($brand-green, 10%);
+	}
+}
+
+.btn-block{
+    display: block;
+    width: 100%;
+}
+
+// Brand-specific Buttons
+
+.btn-social {
+	@include rem(margin-bottom, 5px);
+}
+
+.btn-twitter {
+	background-color: #00aced;
+	&:hover{
+		background-color: darken(#00aced, 5%);
+	}
+}
+
+.btn-facebook {
+	background-color: #3b5998;
+	&:hover{
+		background-color: darken(#3b5998, 5%);
+	}
+}
+
+.btn-google {
+	background-color: #dd4b39;
+	&:hover{
+		background-color: darken(#dd4b39, 5%);
+	}
+}
+.debate-btn {
+    background: #60dd50 none repeat scroll 0 0;
+    border: 3px solid #aceda1;
+    border-radius: 5px;
+    color: #fff;
+    display: inline-block;
+    font-size: 16px;
+    line-height: 0;
+    padding: 17px 28px 16px;
+    position: relative;
+    vertical-align: middle;
+}
+button{
+color: #d8d8d8;
+    background: none;
+}
+button{
+& i.fa{
+color: #d8d8d8;
+font-size: 23px;
+}
+}
+button{
+& i.fa.fa-caret-right{
+color: #000;
+font-size: 14px;
+}
+}
+.admin-content-button {
+    text-align: right;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.white-button {
+    background: #fff;
+    color: #323232;
+    border: 1px solid #ccc;
+    padding: 0.8rem 0rem;
+    font-weight: 500;
+    @include rem(font-size,14px);
+    width: 135px;
+    line-height: 18px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 5px;
+    padding: 0.7rem 0rem;
+	&:hover{
+	background: #ccc;
+    color: #fff;
+	}
+}
+.field-group:last-child{
+& .btn-green{
+    background: #fff;
+    color: #828282;
+    box-shadow: inset 0 0 0 1px #828282;	
+}
+}
+.field-group:last-child .btn-green:hover{
+	background: #828282;
+    color: #fff;
+    border-color: #828282;
+}
+.agree-btn {
+  border: 1px solid #d8d8d8;
+  border-radius: 5px;
+  color: #d8d8d8;
+  line-height: normal;
+  padding: 5px;
+  text-transform: uppercase;
+}

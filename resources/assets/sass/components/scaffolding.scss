@@ -1,0 +1,222 @@
+//
+// Scaffolding
+// --------------------------------------------------
+
+.game-wrapper{
+	//max-width: 520px;
+	@include rem(padding, 100px 20px);
+	display: flex;
+	@include rem(max-width, 1200px);
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.game-sidebar {
+	max-width: 100%;
+	flex: 0 0 50%;
+	background: #fff;
+    text-align: center;
+}
+.game-sidebar__left {
+
+}
+
+.game-sidebar__right {
+
+}
+
+.game-main {
+	flex: 1;
+	@include rem(margin, 0px 15px);
+	background: #fff;
+}
+
+.game-header{
+	background: $brand-black;
+	color: #ffffff;
+	text-align:center;
+	@include rem(font-size, 16px);
+	@include rem(padding, 8px);
+	font-weight:500;
+}
+
+.game-footer{
+	@include rem(font-size, 12px)
+	color: $brand-gray;
+	@include rem(padding, 30px 20px 35px)
+}
+.game-main form {
+    padding: 15px;
+}
+ .switch2 {
+  position: relative;
+  display: inline-block;
+  width: 54px;
+  height: 16px;
+  margin: 3px 0;
+  vertical-align: text-bottom;
+}
+.wrapper p {
+    display: inline-block;
+    vertical-align: middle;
+	padding-right: 3%;
+	font-size: 14px;
+}
+.switch2 input {display:none;}
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 19px;
+  width: 19px;
+  left: 4px;
+  bottom: -1px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #61dd50;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(35px);
+  -ms-transform: translateX(35px);
+  transform: translateX(35px);
+}
+input:checked + .slider::after {
+    content: "on";
+    color: #fff;
+    left: 8px;
+    position: absolute;
+    top: 3px;
+}
+.slider::after {
+    content: "off";
+    color: #000;
+    position: absolute;
+    right: 8px;
+    top: 3px;
+}
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;  
+}
+
+.slider.round:before {
+  border-radius: 50%;
+  box-shadow: 0 0 3px #000;
+  left: 0;
+}
+.on_air{
+  background: #61dd50 none repeat scroll 0 0;
+  color: #fff;
+  left: 0;
+  padding: 7px 0;
+  position: fixed;
+  text-align: center;
+  top: 54px;
+  width: 100%;
+  z-index:9;
+}
+.on_air img {
+  width: 24px;
+}
+.on_air h4 {
+  margin: 0;
+  font-size: 14px;
+}
+.modal-title{text-align:center;}
+.modal-body .debate-preview__players.follow-players {
+    padding: 1.25rem;
+}
+#popupFollowUsers .modal-body {
+  padding: 0px;
+}
+#popupJoinDebate.modal .modal-body {
+  text-align: left;
+}
+textarea#join-debate-argument {
+  height: auto;
+}
+.no-user-let-for-follow {
+    font-size: 16px;
+    font-weight: 400;
+}
+#popupJoinDebate.modal.new-popup .modal-body {
+  padding-top: 0;
+  text-align: left;
+}
+#popupJoinDebate.modal.new-popup .modal-body p{
+max-width:100%;
+padding-top:15px;
+}
+.modal-header{text-align:right; border-bottom:none !important;}
+.modal-footer {border-top: none !important;}
+.marg-top.seperate-page-voter.challenge-debate-arg.email-modal {
+  left: 0;
+  padding-top: 30px;
+  position: fixed;
+  right: 0;
+  z-index: 999999;
+  height:100%;
+}
+.radio-vote-section {
+    text-align: center;
+    display: table;
+	width:100%;
+}
+.radio-vote-section ul {
+    list-style: none;
+    width: 63%;
+    margin: 32px auto 0;
+    padding: 0;
+    display: inline-block;
+    text-align: center;
+}
+.radio-vote-section ul li {
+    width: 100%;
+    text-align: left;
+    margin: 0 0 16px;
+    padding: 0;
+	display:table;
+}
+.debate-comment__form button i.fa{
+  color: #61dd50;
+  }
+
+.radio-vote-section ul li input {
+    display: table-cell;
+    width: 20px;
+    vertical-align: middle;
+    margin: 0;
+    height: auto;
+}
+.radio-vote-section ul li label {
+    display: table-cell;
+    max-width: none;
+    vertical-align: baseline;
+    position: relative;
+    top: 0;
+    padding-left: 5px;
+    font-size: 13px;
+    margin: 0;
+	text-transform:capitalize;
+	width:100%;
+	max-width:100%;
+}

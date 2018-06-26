@@ -1,0 +1,461 @@
+//
+// responsive
+// --------------------------------------------------
+@media screen and (min-width: 574px) and (max-width:716px) {
+.ranged .field p.field-description {
+    min-height: 39px;
+}
+}
+@media screen and (max-width: 1024px) {
+#settingMultipleChoiceModal.modal.modal-box.fade.in {
+  margin-top: -20px;
+}
+.modal.modal-box{overflow:auto;}
+h4.admin-content__stat-label {
+	font-size: 0.75rem;
+}
+.dropdown-main { 
+width: 41%;
+}
+.table-main-scroll { 
+overflow: auto; 
+background:#f6f6f6; 
+width:100%;
+}
+.admin-content__section-header.table-main-scroll{
+	width:100%;
+}
+.upload-sec span {
+	background-size: 100%;
+}
+.game-wrapper {
+	overflow: hidden;
+}
+aside.game-sidebar.game-sidebar__right.profile-content,.game-main.debate-single.update-profile {
+width: 48%;
+}
+.game-main.debate-single.update-profile .form-group .col-md-8 { 
+padding: 0;
+width: 95%;
+}
+label.col-md-4.control-label {
+	display: block; 
+	padding: 0; 
+	width: 100%;
+}
+input#avatar_url {
+	padding: 0.5rem 0.9375rem;
+}
+.update-profile .form-group {
+    float: left;
+    margin-bottom: 13px;
+    width: 50%;
+    padding: 0 15px;
+}
+#myChallengeModal.modal {
+  overflow: visible;
+}
+#inviteToVote.modal {
+  overflow: visible;
+}
+.admin-content__table.ques-tab tr td, .admin-content__table.ques-tab tr th{
+padding:1.25rem;
+}
+.admin-content-new .col-md-10 {
+    width: 68.333333%;
+}
+.admin-content__stats.u-background-white {
+    overflow: auto;
+}
+.admin-content__table tr td, .admin-content__table tr th {
+    min-width: 190px;
+}
+.update-profile .form-group{
+	width:100%;
+}
+.admin-content__stat-number {
+    font-size: 20px;
+}
+.dataTables_filter input[type="search"]{
+height:38px;
+}
+.admin-content__section-header.sche-header {
+    padding-top: 20px;
+	width:52%;
+}
+.admin-content__form .col-md-6 {
+	width: 100%;
+}
+a.white-button {
+	width: 100px;
+}
+button.btn.btn-green{ padding: 0.625rem 1rem; font-size:11px;}
+.admin-content__form .col-md-6 {width: 100%;}
+h3.admin-content__section-headline.activity-head-title {
+    font-size: 20px;
+}
+.admin-content__section{position:relative;}
+.dataTables_filter {
+    margin-top: 0 !important;
+    float: right;
+    text-align: left;
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+	position:absolute;
+	top:0;
+}
+.table-main-scroll {
+  margin-top: 0;
+  overflow: auto;
+  width: 100%;
+}
+section#first-tab-group div#DataTables_Table_0_wrapper {
+  float: right;
+  margin-bottom: 12px;
+  margin-top: 0;
+  width: 100%;
+}
+div#DataTables_Table_0_wrapper label {top: 0;}
+div#DataTables_Table_0_wrapper.no-footer{margin-top:0;}
+div#DataTables_Table_1_wrapper.no-footer{margin-top: 0;}
+.admin-content__section-header {margin-bottom: 1.3125rem;}
+#category-table_filter > label{text-align:right;}
+table#category-table {
+  margin-top: 24px;
+}
+.admin-nav {
+  position: static;
+}
+input:checked + .slider {
+  background-color: #2fbe1b;
+}
+.table-main-scroll .activity-list li span:last-child {
+  width: 58%;
+}
+.field.field__left input, .field.field__right input{padding-right: 25px;}
+.col-md-12.activity .col-md-4 {
+  padding: 0;
+  width: 100%;
+}
+.col-md-12.activity .col-md-8 {
+  padding: 0;
+  width: 100%;
+}
+.admin-content__section-header p.admin-content__section-desc {
+  width: auto;
+}
+.bottom-pop-btn button.btn.btn-green{width:100px;}
+.combine-button .white-button {
+  font-size: 0.675rem;
+}
+.admin-content__table.ad-table3.ad-table2.no-footer.dataTable tr.ans-box td{min-width:auto;}
+.edit-ans-btn { margin-bottom: 8%;}
+.ans-box td:first-child, .ans-box td:last-child{width:50%;}
+.ans-box td:last-child{text-align:center;}
+}
+@media screen and (max-width: 980px) {
+.combine-button .white-button {
+  font-size: 0.875rem;
+}
+.admin-content__table tr th::before {display:none;}
+.sorting {
+  background-position: -2px center !important;
+}
+.sorting_desc {
+  background-position: -2px center !important;
+}
+.admin-content__table tr td, .admin-content__table tr th{
+padding: 1.25rem;
+}
+aside.game-sidebar.game-sidebar__right.profile-content,.game-main.debate-single.update-profile {
+width: 100%;
+margin:20px 0 0;
+}
+.col-md-12.activity .col-md-8 {width: 100%; padding:0;}
+.col-md-12.activity .col-md-4 {width: 100%; padding:0;}
+.col-md-12.exp-table-left {padding: 0;}
+.category-list ul{width:584px !important;}
+.admin-content__section-header.sche-header div.combine-main {
+  display: block;
+  text-align: left;
+  width: 100%;
+}
+.admin-content__section-header.sche-header div.combine-main:last-child p {text-align:left;}
+}
+@media screen and (min-width: 768px) and (max-width: 1024px){
+.admin-content__section-header { width: 100%;}
+div#DataTables_Table_1_wrapper label {top: 0;}
+.admin-content__section-header p.admin-content__section-desc{width:auto;}
+.field p.field-description { min-height: 39px;}
+.field p.field-description.first-line{min-height:auto;}
+}
+@media screen and (max-width: 768px) {
+.modal-title{font-size:24px;}
+h4.admin-content__stat-label {font-size: 0.7rem;    min-height: 22px;}
+.category-sec { overflow-x: scroll;}
+main.game-wrapper { display: block;}
+.admin-nav__user {padding-top: 40px;}
+input.form-control.ad-textbox{width:100%;} 
+select{padding-right:25px;}
+table td img {float: left;}
+section#first-tab-group div#DataTables_Table_0_wrapper{margin-top:20px;}
+div#DataTables_Table_0_wrapper.no-footer{margin-top:20px;}
+div#DataTables_Table_1_wrapper.no-footer{margin-top:20px;}
+.admin-nav__user .wrapper > p { max-width: 86px;}
+.switch {margin: 8px 0;}
+ul.admin-content-inner li {
+  color: #8e8e83;
+  display: inline-block;
+  vertical-align: middle;
+  width: 48%;
+}
+}
+@media screen and (max-width: 767px) {
+#addAnswerModal .modal-body, #editAnswerModal .modal-body, #settingMultipleChoiceModal .modal-body{height:auto;}
+.ans-bottom-btn {margin-top: 22px;}
+.admin-nav__user .wrapper > p { max-width: 78px;}
+.switch {margin: 8px 0;}
+.admin-content__section-header {
+    width: 100%;
+}
+.topnav {
+    overflow: visible;
+    background-color: #61DD50;
+    position: absolute;
+    width: 50%;
+    top: 0;
+    right: -100%;
+    transition: all 0.7s ease 0s;
+	-moz-transition: all 0.7s ease 0s;
+	-ms-transition: all 0.7s ease 0s;
+	-webkit-transition: all 0.7s ease 0s;
+	height: 100vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+.topnav.responsive {
+    right: 0;
+}
+  .topnav a {display: none;}
+.topnav a.icon {
+    display: block;
+    float: right;
+    position: fixed;
+    right: 15px;
+    width: auto;
+    top: 13px;
+    transition: all 0.7s ease-in-out 0s;
+}
+.admin-content { background-color: #f2f2f2;  margin-left: 0;  margin-top: 71px;}
+.topnav a.icon span {
+    background: #fff none repeat scroll 0 0;
+    display: inline-block;
+    height: 2px;
+    width: 25px;
+    position: relative;
+}
+.topnav a.icon span::before {
+    transition-property: top, transform;
+}
+.topnav a.icon span::after {
+    transition-property: bottom, transform;
+}
+.topnav a.icon span::before, .topnav a.icon span::after {
+    transition-delay: 0.3s, 0s;
+    transition-duration: 0.3s, 0.3s;
+}
+.topnav a.icon span::before {
+    top: 6px;
+}
+.topnav a.icon span::after, .topnav a.icon span::before {
+    background: #fff none repeat scroll 0 0;
+    display: inline-block;
+    height: 2px;
+    width: 25px;
+    position: absolute;
+    content: "";
+}
+.topnav a.icon span::after {
+    bottom: 6px;
+}
+.topnav.responsive a.icon span::before, .topnav.responsive a.icon span::after {
+    transition-delay: 0s, 0.3s;
+}
+.topnav.responsive a.icon span::before {
+    top: 0;
+    transform: rotate(45deg);
+}
+.topnav.responsive a.icon span::before, .topnav.responsive a.icon span::after {
+    transition-delay: 0s, 0.3s;
+}
+.topnav.responsive a.icon span::after {
+    bottom: 0;
+    transform: rotate(-45deg);
+}
+.topnav a.icon:hover,.topnav.responsive a.icon:hover{background:transparent;}
+.topnav a.icon:hover span,.topnav a.icon:hover span::after,.topnav a.icon:hover span::before{background:#61DD50;}
+.topnav.responsive a.icon span::after,.topnav.responsive a.icon span::before{background:#fff;}
+.topnav.responsive a.icon span{background:transparent;}
+.mobile-user{display:block;}
+.desktop-user{display:none;}
+.topnav.responsive a.icon { position: fixed; right: 15px; top: 13px; width: auto;}
+.topnav.responsive a {float: none;    display: block;    text-align: left;  }
+.admin-nav__header {padding: 0;}
+.admin-nav{
+ position: fixed !important;
+ left: 0;
+ top: 0 !important;
+ width: 100%;
+ height: 4.8rem;
+ float: left;
+ z-index:9;
+ padding: 1.1875rem 0 1.125rem 10px;
+}
+.heads-up {
+  transform: translate3d(0,-6rem,0);
+  transform:translateY(-6rem);
+}
+.game-main{margin:0;}
+.admin-content__table tr th, .admin-content__table tr td {
+    max-width: 300px;
+    min-width: auto;
+}
+.message_editprofile {top: 72px;}
+.primary-nav__dropdown-link.u-link-black {margin-bottom: 0;}
+aside.game-sidebar.game-sidebar__right.profile-content {width: 100%;}
+.game-main.debate-single.update-profile { width: 100%; margin-left:0; margin-top:20px;}
+.game-main.debate-single.update-profile form .form-group .col-md-8 {width: 100%;}
+.game-main.debate-single.update-profile form { padding: 15px 0;}
+.game-wrapper {height: 100%; overflow: hidden; position: relative;}
+form.form-horizontal.form.login-form.u-center-block {
+    padding: 15px;
+}
+.admin-content__stats.u-background-white {  overflow: scroll;}
+.col-md-12.exp-table-left { padding: 0;}
+.active-list-box.u-background-white {
+    height: 372px;
+    overflow-y: scroll;
+}
+table#DataTables_Table_0 .admin-content__table tr th{
+    max-width: none;
+    min-width: 120px;
+}
+.admin-content__section-header.sche-header div {
+    vertical-align: top;
+}
+.admin-content__section-header.sche-header.quest-view1 div{vertical-align:middle;}
+h3.admin-content__section-headline.activity-head-title {font-size: 17px;	}	
+main.admin-content .game-wrapper {padding-top: 0.5rem;}
+.admin-content__form .col-md-6 {width: 100%;}
+section#first-tab-group div#DataTables_Table_0_wrapper{margin-top:8px;display: block;float: left;width: 100%;}
+.admin-content__section-header.sche-header div:first-child { width: 100%;}
+.admin-content__section-header.sche-header div:last-child { width: 100%;}
+.admin-content__section-header.sche-header div p {text-align: left;}
+.admin-content__section-header.sche-header div{display:block;}
+.field.field-err.col-md-6{padding:0; width:100%;}
+.combine-button .white-button {
+  display: inline-block;
+  margin-bottom: 10px;
+  width: 19%;
+}
+.custom-bar-chart .bar{margin:0 1% 0 5%;}
+}
+@media screen and (max-width: 640px) {
+ul.admin-content-inner li { width: 100%;}
+ul.admin-content-inner { margin-top: 20px;}
+.admin-content__section-header {display: block;}
+.admin-content__section-header .admin-content__search {display: block; width:100%; margin-bottom:20px;}
+.admin-content__form { background: #fff none repeat scroll 0 0;
+    border: 1px solid #cccccc;
+    padding: 11px;
+}
+.dropdown-button{width:135px;}
+.admin-content__table tr th {padding: 1.25rem;}
+form.form-horizontal.form.login-form.u-center-block .update-profile .form-group{
+text-align:center;
+width:100%;
+}
+.ques-info p.admin-content__section-desc {margin-bottom: 0.625rem;}
+p.category-ads {padding-top: 2rem;}
+div#DataTables_Table_0_wrapper label{top:0;}
+.dataTables_filter {margin:0 0 20px !important; float: left !important;width:100%; position: static;}
+input[type="search"]{width:100%;}
+div#DataTables_Table_0_wrapper.no-footer{margin-top:0;}
+div#DataTables_Table_1_wrapper.no-footer{margin-top:0;}
+div#DataTables_Table_1_wrapper label{top:0;}
+.on_air{top:52px;}
+#editAnswerModal.modal.modal-box .modal-content{width:95%;}
+#deleteAnswerModal.modal.modal-box .modal-content{width:95%;}
+#addAnswerModal.modal.modal-box .modal-content{width:95%;}
+}
+@media screen and (max-width: 639px) {
+.col-md-10 { width: 100%;}
+.table-main-scroll label {position: static;}
+.admin-content-new { padding:0 0 10px;}
+.col-md-2.admin-content-button { width: 100%; text-align: left;padding:0;}
+.col-md-2.admin-content-button form { width: 50%;  display: inline-block; float: left;text-align: center;}
+.admin-content-inner {margin: 0; padding: 15px;}
+.admin-content-inner li {display: inline-block; vertical-align: top;width: 100%; }
+.admin-content-inner li:last-child {text-align: left;}
+.col-md-8 {width: 100%;padding:0;}
+.col-md-4 {width: 100%;	padding:0;}
+.col-md-12.exp-table-left { padding: 0;}
+.admin-content-new .col-md-10, .admin-content-new .col-md-2{width:100%;}
+}
+@media screen and (max-width: 530px) {
+.prodebatesection {
+    overflow: auto;
+    width: 100%;
+    border-right: 1px solid #ccc;
+}
+label.col-md-4.control-label {
+    width: 100%;
+}
+.update-profile .form-group .col-md-6 {
+    width: 100%;
+}
+.update-profile .form-group { float: left;  width: 100%;}
+
+.admin-content__section-header.sche-header {
+    padding-top: 20px;
+	width:100%;
+}
+.admin-content__stat.stat-ad-banner {padding-top: 19px;}
+.edit-ans-btn { margin-right: 0;}
+}
+@media screen and (max-width: 480px) {
+.admin-content {
+  margin-top: 62px;
+}
+.u-flex-center {display: block;}
+.dropdown-main {display: inline-block;  text-align: right;  width: 48%;  margin-top:15px;}
+.admin-content__header-actions {  display: inline-block;  margin-top:15px;}
+.admin-content__header-actions a.btn{padding:0.625rem 0.5rem;}
+.ranged {display:block;}
+button, input[type="button"], input[type="reset"], .btn { padding: 0.625rem 8px;}
+a.admin-nav__header-nav-link {margin-right: 0; padding: 0.625rem 0.25rem; font-size:14px;}
+h3.admin-content__section-headline.activity-head-title { font-size: 14px;}
+.dropdown-button {width: 132px;}
+.update-profile .form-group { padding: 0;}
+a.white-button {width: 100px;}
+button.btn.btn-green {padding: 0.625rem 0.8rem;}
+label { font-size: 11px;}
+.field.field-err.col-md-12 input[type="checkbox"] {margin-top: 2px;}
+h3.admin-content__section-headline { font-size: 12px;}
+}
+@media screen and (max-width: 459px) {
+.dataTables_filter {margin:0 0 20px !important; float: left !important;width:100%; position: static;}
+input[type="search"]{width:100%;}
+div#DataTables_Table_0_wrapper.no-footer{margin-top:0;}
+div#DataTables_Table_1_wrapper.no-footer{margin-top:0;}
+div#DataTables_Table_1_wrapper label{top:0;}
+}
+@media screen and (max-width: 410px) {
+.combine-button .white-button {width: 49%;}
+}
+@media screen and (max-width: 375px) {
+.dropdown-button {width: 79px;
+}
+.white-button{width:120px;}
+}

@@ -1,0 +1,43 @@
+.admin-content__table {
+    background-color: transparent;
+    border-collapse: collapse;
+    @include rem(font-size, 14px);
+}
+
+thead{
+    background-color: #ffffff;
+    border-top: 1px solid #d2d2d2;
+    border-bottom: 1px solid #d2d2d2;
+}
+
+tbody{
+    //border: 1px solid $brand-border;
+    background-color: #ffffff;
+}
+
+th {
+    text-align: left;
+    position: relative;
+}
+td, th {
+	font-weight: 500;
+    display: table-cell;
+    vertical-align: inherit;
+    @include rem(padding, 10px);
+}
+
+// Clickable Table Rows
+tr.clickable-row:nth-child(2n){
+    @include transition(background-color .15s linear);
+    background-color: #F2F2F2;
+    cursor: pointer;
+    &:hover{
+        background-color: #d2d2d2
+    }
+}
+th {
+background-color:#fff;
+}
+.admin-content__table.ad-promo-table th:last-child {
+  background-image: none;
+}

@@ -1,0 +1,45 @@
+//
+// Pagination
+// --------------------------------------------------
+
+ul.pagination{
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+	@include rem(margin-top, 10px);
+	text-align: right;
+}
+
+ul.pagination li{
+	display: inline-block;
+	text-align: center;
+	background-color: #ffffff;
+	line-height: 1;
+	border: 1px solid #d2d2d2;
+}
+
+ul.pagination li.active{
+	@include rem(font-size, 14px);
+	@include rem(padding, 8px);
+	@include rem(width, 30px);
+	//border: 1px solid $brand-blue;
+}
+
+ul.pagination li.disabled{
+	@include rem(font-size, 14px);
+	@include rem(padding, 8px);
+	@include rem(width, 30px);
+	background-color: #f1f1f1;
+}
+
+ul.pagination li a{
+	@include rem(font-size, 14px);
+	@include rem(padding, 8px);
+	@include rem(width, 30px);
+	display: inline-block;
+	@include transition(all .15s linear);
+	&:hover{
+		background-color: #f1f1f1;
+		//color: $brand-blue;
+	}
+}

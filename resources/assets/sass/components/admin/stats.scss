@@ -1,0 +1,57 @@
+// 
+// Admin Stats
+// -----------------------------------
+
+.admin-content__stats{
+	display: flex;
+}
+
+.admin-content__stat{
+	flex: 1;
+	border-right: 1px solid $brand-border;
+	@include rem(padding, 15px);
+	&:last-child{
+		border-right: 0px;
+	}
+}
+
+h4.admin-content__stat-label{
+	text-transform: uppercase;
+	@include rem(font-size, 12px);
+	@include rem(letter-spacing, 1px);
+	margin:0;
+	color:#000 !important;
+}
+
+.admin-content__stat-number{
+	@include rem(font-size, 32px);
+	font-weight: 700;
+}
+.admin-content__stat.stat-ad-banner {
+    width: 100%;
+    flex: none;
+    max-width: 331px;
+    vertical-align: middle;
+    padding-top: 15px;
+    text-align: center;
+}
+.admin-content__stat.stat-ad-banner {
+& img.placeholder_banner{
+    height: 75px;
+}
+}
+.admin-content__stat.stat-ad-banner  {
+& img{
+    max-width: 490px;
+    height: 138px;
+    width: 100%;
+}
+}
+.admin-content__stats{
+& .admin-content__stat.stat-ad-banner{
+padding-top:18px;
+}
+}
+
+
+

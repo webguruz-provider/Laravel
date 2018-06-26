@@ -1,0 +1,152 @@
+//
+// Auth
+//--------------------------------------
+
+.login{
+	background-color: #ffffff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	flex-direction: column;
+}
+
+.login-logo {
+	@include rem(height, 55px);
+	@include rem(width, 210px);
+	@include rem(margin-bottom, 50px);
+}
+
+h2.login-form-title{
+	@include rem(font-size, 22px);
+	font-weight: 700;
+	@include rem(margin-bottom, 10px);
+}
+
+p.login-form-desc{
+	@include rem(font-size, 16px);
+	@include rem(margin, 0px 0px 20px);
+	color: $brand-gray;
+}
+
+
+.login-form{
+	width: 300px;
+}
+
+
+//
+// Categories
+//--------------------------------------
+
+.category-form {
+	max-width: 500px;
+}
+
+.onboarding-categories{
+	@include rem(margin-bottom, 20px);
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.onboarding-category{
+	@include rem(margin-bottom, 5px);
+	@include rem(padding, 50px 20px);
+    width: 24.5%;
+    margin-left: .25%;
+    margin-right: .25%;
+    float: left;
+	align-items: center;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-radius: 15px;
+	overflow: hidden;
+	border: 5px solid #ffffff;
+	box-sizing: border-box;
+	display: flex;
+	justify-content: center;
+	position: relative;
+	@include transition(border-color .15s linear);
+	&:nth-child(4n){
+		margin-right: 0px;
+	}
+	&:hover{
+		cursor: pointer;
+		border-color: $brand-green;
+	}
+}
+
+.onboarding-category.is-selected{
+	border: 5px solid $brand-green;
+}
+
+.onboading-category__screen{
+	background-color: rgba(0,0,0,.5);
+	height: 100%;
+	left: 0px;
+	position: absolute;
+	top: 0px;
+	width: 100%;
+	z-index: 1;
+}
+
+.onboarding-category__name{
+	position: relative;
+	z-index: 2;
+	color: #ffffff;
+}
+
+.onboarding-category__checkbox{
+	display: none;
+}
+.player-profile-bg {
+    position: relative;
+    padding-top: 35px;
+	padding-bottom:25px;
+	z-index: 1;
+	background-repeat: no-repeat;
+    background-position: top center;
+	background-size: cover;
+	overflow:hidden;
+}
+.player-profile-bg::before {
+    content: "";
+    background: rgba(0,0,0,0.75);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    z-index: -1;
+}
+.player-profile-bg .following-btn {
+    color: #fff;
+    right: 10px;
+    border-color: #fff;
+    position: relative;
+}
+.player-profile-bg h2.player-profile__header-name{
+color:#fff;
+}
+.player-profile-bg .title-caption{
+color:#fff;
+}
+.player-profile-bg .header-stat__number{
+color:#fff;
+}
+.player-profile-bg .header-stat__label{
+color:#fff;
+}
+.flash-msg img {
+    width: 25px;
+}
+.pro-ads{text-align:center; background:#fff;}
+.pro-ads img {
+  display: inline-block;
+  height: 138px;
+  margin: 15px 0;
+  max-width: 490px;
+  width: 100%;
+}

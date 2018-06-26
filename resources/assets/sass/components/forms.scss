@@ -1,0 +1,159 @@
+//
+// Base Styles
+// --------------------------------------------------
+input,
+input[type="text"],
+input[type="tel"],
+input[type="number"],
+input[type="password"],
+input[type="email"]
+select,
+textarea{
+	@include rem(border-radius, 5px);
+	@include rem(font-size, $font-size-base);
+	@include rem(padding, 12px 15px);
+	@include transition(border-color .15s linear);
+	border: 0px;
+	border: 1px solid #cccccc;
+	width: 100%;
+	@include placeholder {
+	    color: #828282;
+	    font-size:13px;
+		font-weight:400;
+		opacity:1;
+	 }
+	 &:focus{
+	 	border-color: $brand-green;
+	 	outline: 0;
+	}
+}
+
+select{
+	@include rem(height, 46px);
+	background-color: #ffffff;
+}
+
+label{
+	@include rem(font-size, 12px);
+	@include rem(margin-bottom, 3px);
+	//color: $brand-black;
+	display: block;
+	font-weight: 700;
+	line-height: 1.2;
+	text-align: left;
+	text-transform: capitalize;
+}
+.table-main-scroll{
+& label{
+text-align:right;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+}
+p.field-description{
+	font-size: 13px;
+	color: #8E8E93;
+	@include rem(margin, 5px 0px);
+}
+
+.field{
+	@include rem(margin-bottom, 20px);	
+	width: 100%;
+	position: relative;
+}
+
+.field__link{
+	@include rem(margin, 10px 0px);
+	@include rem(top, -5px);
+	display: inline-block;
+	font-size: 12px;
+	position: relative;
+	text-decoration: none;
+}
+
+.field-submit{
+	@include rem(margin, 20px 0px 0px);
+}
+
+.ranged{
+	display: flex;
+}
+
+.ranged .field__left{
+	margin-right: 2%;
+}
+
+.ranged .field__right,
+.ranged .field__left{
+	@include flex(1);
+}
+
+.range{
+	color: #cccccc;
+	@include rem(padding, 0px 5px);
+}
+
+// Search
+input[type="search"]{
+	background-image: url('../img-dist/icons/icon_search.svg');
+	background-repeat: no-repeat;
+	background-position: 95% center;
+	@include rem(border-radius, 5px);
+	@include rem(padding, 10px 10px 10px 35px);
+	@include rem(width, 300px);
+}
+.form-group {
+    margin-bottom: 15px;
+}
+.admin-content__form {
+    background: #fff;
+    padding: 22px;
+    border: 1px solid $brand-border;
+    margin-top: 25px;
+	overflow:hidden;
+}
+.field.field__left input, .field.field__right input{
+    background-color: transparent;
+    background-position: 98% center;
+    background-repeat: no-repeat;
+    background-image: url(../img/pick-dwn.png);
+    background-position: 98% center;
+    background-repeat: no-repeat;
+    height: 49px;
+}
+.category-ads {
+  text-align: right;
+}
+.admin-content__stat.stat-ad-banner.cat-ban {
+  max-width: 100%;
+}
+.field.field__left select, .field.field__right select {
+    background-image: url(../img/pick-dwn.png);
+    background-color: transparent;
+    background-position: 98% center;
+    background-repeat: no-repeat;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    -o-appearance: none;
+    -ms-appearance: none;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #cccccc;
+    padding-left: 15px;
+    color: #828282;
+    font-weight: 400;
+    height: 49px;
+}
+.field{
+& img#img-preview{
+    position: static;
+    width: 100px !important;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+}
+.field-group {
+    width: auto;
+    display: inline-block;
+}
